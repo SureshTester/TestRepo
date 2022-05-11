@@ -33,7 +33,8 @@ public class SampleTC {
 //	driver.manage().window().maximize();
 	DesiredCapabilities caps = new DesiredCapabilities();
 	caps.setBrowserName("chrome");
-//Comment from Vaishu m/c	
+//Comment from Vaishu m/c
+		//Yes from Suresh
 	try {
 		driver = new RemoteWebDriver(new URL("http://192.168.0.112:4444"),caps);
 	}catch(MalformedURLException e) {
